@@ -1,0 +1,18 @@
+cosas = ['silla',
+         'mesa',
+         'cacerola',
+         'lápiz',
+         'peroligo']
+inventario = {}
+inventario.update({'tenedor': 7})
+
+def funcion(item):
+    numero=int(input('Cuántos ', '+item+' hay? ))
+    inventario.update({item:numero})
+i = 0
+while cosas[i] != 'perolingo':
+    funcion(cosas[i])
+    i += 1
+
+    print(inventario)
+    

@@ -1,0 +1,14 @@
+class persona:
+    nombre = ''
+    apellido = ''
+    edad = 0
+
+    def crear(n, a, e)
+        nombre = n
+        apellido = a
+        edad = e
+cantante = new persona
+
+cantante.crear(Andrés, 'Calamaro', 54)
+
+print(cantante.nombre)
